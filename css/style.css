@@ -412,9 +412,14 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 @media screen and (max-width: 568px) {
   .fh5co-testimonial .item p {
-    font-size: 1p2x;
+    font-size: 15px;
   }
-}
+  #fh5co-main .popper{
+    margin-top: 470px;
+    margin-left:150px;
+   color: black;
+   }
+  }
 .fh5co-testimonial .item .author {
   font-size: 16px;
   display: block;
@@ -683,6 +688,13 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
     font-size: 30px;
     margin-bottom: 1em;
   }
+}
+@media screen and (max-width: 568px) {
+  #fh5co-main .popper-about {
+    margin-top: 40px;
+    margin-left: 120px;
+    color: black;
+}
 }
 
 .fh5co-staff img {
