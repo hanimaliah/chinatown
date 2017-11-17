@@ -603,13 +603,23 @@ body.offcanvas #fh5co-main, body.offcanvas .fh5co-nav-toggle {
 }
 
 #map {
-
   height: 700px;
 }
 @media screen and (max-width: 768px) {
   #map {
-    height: 200px;
+    width:60%;
+    height: 500px;
   }
+  body {
+    font-size: 10px;
+  }
+  #right-panel {
+    height: 100%;
+    float: right;
+    width: 220px;
+    font-size: 10px;
+    overflow: auto;
+}
 }
 
 .fh5co-more-contact {
