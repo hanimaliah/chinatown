@@ -43,6 +43,48 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<style>
+	.container {
+		position: relative;
+		width: 100%;
+	  }
+	  
+	  .image {
+		display: block;
+		width: 100%;
+		height: auto;
+	  }
+	  
+	  .overlay {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: #008CBA;
+		overflow: hidden;
+		width: 0;
+		height: 100%;
+		transition: .5s ease;
+	  }
+	  
+	  .container:hover .overlay {
+		width: 100%;
+	  }
+	  
+	  .text {
+		white-space: nowrap; 
+		color: white;
+		font-size: 20px;
+		position: absolute;
+		overflow: hidden;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		word-wrap: break-word;
+		
+	  }
+	</style>
 </head>
 
 <body>
@@ -57,7 +99,6 @@
 					<li><a href="index.html">Home</a></li>
 					<li class="fh5co-active"><a href="about.html">About</a></li>
 					<li><a href="portfolio.html">Gallery</a></li>
-					<li><a href="direction.html">Direction</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
@@ -94,7 +135,11 @@
 						</div>
 						<div id="demo" class="collapse">
 							<h4>Sejarah</h4>
+							<div class="col-md-6">
+									<img src="foto/sejarah2.jpg" alt="sejarah1" >
+								</div>
 							<p style="color:black; line-height:30px;">
+								
 								Bangsa Tionghoa pertama kali datang ke Indonesia melalui ekspedisi Laksamana Haji Muhammad Cheng Hoo (1405-1433). Ketika itu, Cheng Hoo berkeliling dunia untuk membuka jalur sutra dan keramik. Cheng Hoo pun pernah menginjakkan kaki di pulau Jawa. Sejak ekspedisi itu, berangsur-angsur bangsa Tionghoa berdatangan dan membangun pecinan di beberapa daerah di pulau Jawa. Kuncen Bandung, Haryoto Kunto dalam Wajah Bandoeng Tempo Doeloe (Granesia, 1984), menuturkan bahwa sebagian warga Tionghoa di Pulau Jawa pindah ke Bandung ketika terjadi perang Diponegoro (1825). Setiba di Bandung, sebagian besar tinggal di kampung Suniaraja dan sekitar Jalan Pecinan lama. Mereka menetap dan mencari nafkah disana. Pada tahun 1885 mereka mulai menyebar ke Jln. Kelenteng. Pecinan di Jln. Kelenteng di tandai dengan pembangunan Vihara Satya Budhi.
 								Menurut keterangan pengurus Vihara Satya Budhi, pecinan di Bandung seperti rumah-rumah toko pada umumnya, tak ada asesoris khusus seperti pecinan di daerah lain di Indonesia. Warganya pun beragam, tak hanya keturunan Tionghoa.
 								Pecinan berkembang pesat disekitar Pasar Baru sejak 1905. Umumnya warga Tionghoa menjadi pedagang.<br><br>
@@ -131,25 +176,49 @@
 							<p >
 								<div class="row animate-box" data-animate-effect="fadeInLeft">
 											<div class="col-md-4">
-											  <img src="foto/mushola.jpg" width="300" height="200">
+													<div class="container">
+											  <img src="foto/mushola.jpg" width="300" height="200"class="image">
+											  <div class="overlay">
+													<div class="text">Tersedia banyak mukena, sarung,<br> sajadah dan al-quran</div>
 											</div>
+											</div></div>
 											<div class="col-md-4">
-											  <img src="foto/sewa kostum.jpg" width="300" height="200"> 
+													<div class="container">
+											  <img src="foto/sewa kostum.jpg" width="300" height="200" class="image"> 
+											  <div class="overlay">
+													<div class="text">Harga sewa mulai dari <br>Rp 50.000,- s/d Rp 150.000,-</div>
 											</div>
+											</div></div>
 											<div class="col-md-4">
-											  <img src="foto/pernakpernik.jpg"  width="300" height="200">
+													<div class="container">
+											  <img src="foto/pernakpernik.jpg"  width="300" height="200" class="image">
+											  <div class="overlay">
+													<div class="text">Harga mulai dari Rp 25.000,-</div>
 											</div>
+											</div></div>
 										</div><br>
 										<div class="row animate-box" data-animate-effect="fadeInLeft">
 												<div class="col-md-4">
-												  <img src="foto/flazz.jpg" width="300" height="200">
+														<div class="container">
+												  <img src="foto/flazz.jpg" width="300" height="200" class="image">
+												  <div class="overlay">
+														<div class="text">Harga Kartu Flazz Rp25.000,-<br>Top up mulai dari Rp 20.000,- </div>
 												</div>
+												</div></div>
 												<div class="col-md-4">
-												  <img src="foto/music.jpg" width="300" height="200"> 
+														<div class="container">
+												  <img src="foto/music.jpg" width="300" height="200" class="image"> 
+												  <div class="overlay">
+														<div class="text">Live Music</div>
 												</div>
+												</div></div>
 												<div class="col-md-4">
-												  <img src="foto/museum.jpg"  width="300" height="200">
+														<div class="container">
+												  <img src="foto/gallery8.jpg"  width="300" height="200" class="image">
+												  <div class="overlay">
+														<div class="text">Sejarah datang nya warga china dan<br> barang-barang antik </div>
 												</div>
+												</div></div>
 											</div>
 							</p>
 						</div>
