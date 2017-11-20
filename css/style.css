@@ -227,13 +227,13 @@ figure {
 }
 #fh5co-main .bg{
   width:100%;
-  height: 750px;
+  height: 680px;
   background: url(../foto/bg-cta.jpg) center center;
   background-size: cover; 
 }
 #fh5co-main .popper{
- margin-top: 610px;
- margin-left:370px;
+ margin-top: 550px;
+ margin-left:321px;
 color: black;
 }
 #fh5co-main .popper-about{
